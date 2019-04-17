@@ -1,49 +1,14 @@
  <!DOCTYPE html>
 <html>
 <head>
-<style> 
-div
-{
-width:100px;
-height:100px;
-background:red;
-position:relative;
-animation:mymove 5s infinite;
--moz-animation:mymove 5s infinite; /* Firefox */
--webkit-animation:mymove 5s infinite; /* Safari and Chrome */
--o-animation:mymove 5s infinite; /* Opera */
-}
-
-@keyframes mymove
-{
-from {top:0px;}
-to {top:200px;}
-}
-
-@-moz-keyframes mymove /* Firefox */
-{
-from {top:0px;}
-to {top:200px;}
-}
-
-@-webkit-keyframes mymove /* Safari and Chrome */
-{
-from {top:0px;}
-to {top:200px;}
-}
-
-@-o-keyframes mymove /* Opera */
-{
-from {top:0px;}
-to {top:200px;}
-}
+<style>
+background-color:red;
 </style>
 </head>
 <body>
-
-<p><b>注释：</b>本例在 Internet Explorer 中无效。</p>
-
-<div></div>
+ 我见过春日，夏风，秋叶，冬雪；
+ 也踏遍南水，北山，东麓，西岭；
+ 可这四季春秋 苍山泱水，都不及你 冲我展眉一笑。
 
 </body>
 </html>
