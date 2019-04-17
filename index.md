@@ -1,6 +1,5 @@
-
 <html>
-<head>
+<head></head>
 <style>
 body{background-color:red;}
 </style>
