@@ -1,14 +1,23 @@
- 我的第一个网页
- 
- 
- <h1>潍工大的一个小兄弟的第一个网页</h1>
- 
- <h1> 107宿舍大佬</h1>
- 
- 
-  <h1>曹大佬</h1>
-  
- 
+ @keyframes myfirst
+{
+from {background: red;}
+to {background: yellow;}
+}
 
- <h1>哈哈哈哈</h1>
- 
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background: red;}
+to {background: yellow;}
+}
