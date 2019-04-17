@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-background-color:red;
+body{background-color:red;}
 </style>
 </head>
 <body>
