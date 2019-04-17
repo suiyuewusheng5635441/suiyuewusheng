@@ -1,23 +1,49 @@
- @keyframes myfirst
+ <!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
 {
-from {background: red;}
-to {background: yellow;}
+width:100px;
+height:100px;
+background:red;
+position:relative;
+animation:mymove 5s infinite;
+-moz-animation:mymove 5s infinite; /* Firefox */
+-webkit-animation:mymove 5s infinite; /* Safari and Chrome */
+-o-animation:mymove 5s infinite; /* Opera */
 }
 
-@-moz-keyframes myfirst /* Firefox */
+@keyframes mymove
 {
-from {background: red;}
-to {background: yellow;}
+from {top:0px;}
+to {top:200px;}
 }
 
-@-webkit-keyframes myfirst /* Safari 和 Chrome */
+@-moz-keyframes mymove /* Firefox */
 {
-from {background: red;}
-to {background: yellow;}
+from {top:0px;}
+to {top:200px;}
 }
 
-@-o-keyframes myfirst /* Opera */
+@-webkit-keyframes mymove /* Safari and Chrome */
 {
-from {background: red;}
-to {background: yellow;}
+from {top:0px;}
+to {top:200px;}
 }
+
+@-o-keyframes mymove /* Opera */
+{
+from {top:0px;}
+to {top:200px;}
+}
+</style>
+</head>
+<body>
+
+<p><b>注释：</b>本例在 Internet Explorer 中无效。</p>
+
+<div></div>
+
+</body>
+</html>
